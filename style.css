@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+.head{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 60% 20% 10% 10%;
+    background-color: #00aeff;
+}
+
+.logo{
+    color: white;
+    
+    
+}
+
+.ask{
+    text-align: center;
+    border-top: 20px;
+    color: white;
+    
+
+
+} 
+.ask{
+    /* grid-area: 50px; */
+    /* min-height: 400px; */
+    background: url(asess/images/hotel.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 7rem;
+    
+} 
+
+.secondSection {
+    margin: 0 10em 0 10em;
+}
+
+.search{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(3, 1fr);
+border: 2px solid rgba(0,0,0,.0.1);
+padding: 1rem;
+text-align: center;
+box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.111);
+position: sticky;
+/* z-index: 5; */
+/* margin-top: -2em; */
+top: -10em;
+left: 10em;
+
+}
+
+.search > input{
+    border: 1px solid grey;
+}
+
+.search > div.box2 {
+    background-color:pink;
+    border:1px solid grey ;
+}
+
+.search >div.botton {
+    background-color: skyblue ;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+.sugection{
+    text-align: center;
+    border-radius: 1rem;
+    padding-top: 50px;
+}
+
+.hotels{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: skyblue;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hot{
+    border: 3px solid skyblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 2em;
+    
+}
+
+.bestoffer{
+    text-align: center;
+    border-radius: 1rem;
+    padding-top: 50px;
+}
+
+.room {
+    width: 100%;
+    /* height: 100%; */
+    /* display: block; */
+}
+
+.rooms{
+    display: grid;
+    grid-gap: 20px;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 7rem;
+    /* background: url(asess/images/bed1.jpg); */
+    background-size: cover;
+    /* /* justify-self: center; */
+    margin-block-start: 5rem
+}
+
+.citys{
+    text-align: center;
+    /* border-radius: 1rem; */
+    padding: 50px;
+    /* margin-top: 4px; */
+}
+
+.cities{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(3, 1fr);
+}
+hy
+.write{
+    text-align: center;
+    position: relative;
+    top: -11rem;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+}
+.state{
+    text-align: center;
+    border-radius: 1rem;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.line{
+    background-color: cornflowerblue;
+    border: 2px;
+    display: grid;
+    justify-self: center;
+}
+ .states{
+     display: grid;
+     grid-gap:20px;
+     grid-template: repeat(10, 1fr)/repeat(4, 1fr);
+     /* text-align: left;
+     padding: 226rem;
+     text-decoration-color: cornflowerblue; */
+     
+ }
+
+ .email{
+     text-align: center;
+ }
+
+ .email {
+     box-shadow: 0 10px 20px 0 rgba(95, 92, 92, 0.111);
+     padding: 5rem;
+ }
+
+.enter{
+    padding-bottom: 3rem;
+}
+.ent{
+    padding-bottom: 3rem;
+}
+
+
+
+.email input{
+    border: 1px solid rgb(24, 21, 21);
+    padding: 1rem;
+    /* margin-right: 1rem; */
+    width: 500px;
+}
+
+.botton {
+    background-color: skyblue ;
+    /* width: 150px; */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.welcome{
+    text-align: center;
+    padding: 1rem;
+}
+
+.book{
+    text-align: center;
+    padding: 2em;
+}
+
+.order{
+    display: grid;
+    /* grid-gap: 10rem; */
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr); 
+    padding: 20px;
+    margin: 5% 10% 0 10%;
+}
+
+.log{
+    width: 40%;
+}
+
+
+.bottoned{
+    background-color: skyblue ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    justify-self: center;
+    margin: 20% 0 0 45%;
+    
+
+}
+
+.phoe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+
+} 
+
+ .bottom{
+     display: flex;
+     grid-gap:10px ;
+     padding: 20px;
+     margin: 100px;
+     background:skyblue;
+     width: 10rem;
+ }
+
+
+.blue{
+    justify-self: center;
+
+}
+
+.blue{
+    display: grid;
+    grid-gap: 2px;
+justify-content: center;
+background: darkblue;
+border-radius: 3px;
+width: 100rem;
+padding: 20px;
+margin-top: 0px;
+height: 10rem;
+}
+
+.circule{
+    background: #ffffff;
+      border-radius: 50px;
+      margin: -3px 0px 0px 124px;
+  }
+
+.boot{
+    /* display: flex; */
+    /* margin:0px 0px 0px 6px; */
+    /* justify-self: left; */
+    /* background-color: #00AEFF; */
+    /* text-align: left;
+    border-radius: 5px; */
+      
+     padding: 10px;
+     margin: 20px;
+     background:skyblue;
+     /* width: 5rem; */
+     margin-left: 7rem;
+     position: relative;
+     margin-bottom: 10px;
+    }
+
+    .hold{
+        width: 5%;
+        margin-left: -2px;
+        border-radius: 0;
+        color: #fff;
+        background: #00aeff;
+        height: 41px;
+        margin-bottom: 0;
+        transition: 3s ease-in-out;
+
+    }
+
+
+.lock{
+    color: #ffffff;
+    padding: 1px;
+    margin-right: 1px;
+}
+
+.start{
+    color: #00AEFF;
+    font: 14px lato;
+}
